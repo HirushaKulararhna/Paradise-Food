@@ -13,6 +13,7 @@ import orderRouter from "./routes/orderRoute.js"
 //app config
 const app = express()
 const port = process.env.PORT || 4000
+const mongoURI = process.env.MONGODB_URI; 
 
 //middleware
 app.use(express.json())
